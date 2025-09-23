@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, redirect, url_for
 from bdd import get_db, close_db  
+
 #Choix de Flask car débutante et il apparait comme plus léger et flexible / facilité d'apprentissage 
+
 app = Flask(__name__)
 
 #Fermer la connexion proprement 
